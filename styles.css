@@ -1,0 +1,140 @@
+body {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    background: #282A35;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200px;
+    width: 100%;
+
+}
+
+header h1 {
+    padding-left: 1.6em;
+    text-align: left;
+    color: white;
+    width: 30%;
+    display: inline-block;
+}
+
+.nav {
+    text-align: right;
+    display: inline-block;
+    width: 60%;
+    background-color: #282A35;
+    
+}
+
+.nav_ul {
+    display: inline-block;
+}
+
+
+.nav_li {   
+    margin-right: 5em;
+    display: inline-block;
+    color: #fff;
+    
+}
+
+.nav_li:hover>a {
+    color: #bbb
+}
+
+.nav_li:hover {
+    color: #bbb
+}
+
+.nav_li a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    width: 90%;
+    max-width: 1350px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.banner_title h1 {
+    color: #000;  
+    font-size: 70px;  
+    text-shadow: 2px 2px black;
+}
+
+.banner_title h1 span {
+    color: #48e;
+    font-weight: bold;
+    font-size: 120px;
+    
+}
+
+.banner_title .curriculum {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #1A2849;
+    padding: 20px;
+    
+}
+
+.banner_title p {
+    color: #000;
+    max-width: 40em;
+    padding: 10px;
+}
+
+.banner_img img{
+    width: 400px;
+    height: 500px;
+    display: block;
+}
+
+
+.formulario {
+    box-sizing: border-box;
+    background: #24303c;
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.formulario h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.opciones {
+    width: 100%;
+    background: #24303c;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid #48e;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.formulario .boton {
+    width: 20%;
+    border: none;
+    padding: 5px;
+    color: white;
+    background: #48e;
+    border-radius: 5px;
+    font-size: 14px;
+}
